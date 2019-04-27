@@ -3,7 +3,7 @@ module.exports = {
   // dialect: 'mysql'
   host: '172.17.0.2',
   username: 'djamilson',
-  password: '1alves',
+  password: '1alvescosta',
   database: 'gonodemodule2',
   operatorAliase: false,
   define: {
