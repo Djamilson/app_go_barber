@@ -1,3 +1,4 @@
 const server = require('./server')
+const { port } = require('./config/config')
 
-server.listen(process.env.PORT || 3000)
+server.listen(port || 3333)
