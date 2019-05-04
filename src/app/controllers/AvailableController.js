@@ -19,8 +19,8 @@ class AvailableController {
     })
 
     const schedule = [
-      '8:00',
-      '8:00',
+      '08:00',
+      '09:00',
       '10:00',
       '11:00',
       '12:00',
@@ -47,6 +47,9 @@ class AvailableController {
           !appointments.find(a => moment(a.date).format('HH:mm') === time)
       }
     })
+
+    console.log(available)
+
     return res.render('available/index', { available })
   }
 }
